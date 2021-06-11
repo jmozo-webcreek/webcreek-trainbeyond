@@ -1,0 +1,28 @@
+{
+	"name": "com.webcreek.trainbeyond",
+	"version": "0.0.1",
+	"displayName": "Train Beyond Package",
+	"description": "This is the packages basis for the future projects of Train Beyond.",
+	"unity": "2020.3",
+	"unityRelease": "0b5",
+	"documentationUrl": "https://www.trainbeyond.com/en/",
+	"changelogUrl": "https://www.trainbeyond.com/en/",
+	"licensesUrl": "https://www.trainbeyond.com/en/",
+	"author": {
+		"name" : "WebCreek",
+		"email": "it@webcreek.com",
+		"url": "https://www.trainbeyond.com/en/"
+	},
+	"dependencies": {
+
+	},
+	"keywords": [
+		"TrainBeyond",
+		"Webcreek"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dilmerv/UnityPackageDependency.git",
+		"revision": "679387cb1fa822190b530bdbb8ea0945f508b5f6"
+	}
+}
