@@ -1,6 +1,7 @@
 {
 	"name": "com.webcreek.trainbeyond",
 	"version": "0.0.1",
+	"type": "module",
 	"displayName": "Train Beyond Package",
 	"description": "This is the packages basis for the future projects of Train Beyond.",
 	"unity": "2020.3",
@@ -9,12 +10,9 @@
 	"changelogUrl": "https://www.trainbeyond.com/en/",
 	"licensesUrl": "https://www.trainbeyond.com/en/",
 	"author": {
-		"name" : "WebCreek",
+		"name": "WebCreek",
 		"email": "it@webcreek.com",
 		"url": "https://www.trainbeyond.com/en/"
-	},
-	"dependencies": {
-
 	},
 	"keywords": [
 		"TrainBeyond",
@@ -22,16 +20,18 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dilmerv/UnityPackageDependency.git",
-		"revision": "679387cb1fa822190b530bdbb8ea0945f508b5f6"
+		"url": "https://github.com/jmozo-webcreek/webcreek.trainbeyond.git"
+	},
+	"dependencies": {
+		"com.webcreek.trainbeyond": "https://github.com/jmozo-webcreek/webcreek.trainbeyond.git"
 	},
 	"scopedRegistries": [
-	{
-		"name": "WebCreek",
-		"url": "https://my.company.com/registry",
-		"scopes": [
-			"com.my-company", "com.my-company.tools.packageX"
-		]
-	}
+		{
+			"name": "WebCreek",
+			"url": "https://github.com/jmozo-webcreek/webcreek.trainbeyond",
+			"scopes": [
+			"com.webcreek", "com.webcreek.trainbeyond"
+			]
+		}
 	]
 }
